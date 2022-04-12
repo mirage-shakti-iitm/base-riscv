@@ -1,2 +1,3 @@
-(library (name caml) (public_name base.caml) (preprocess no_preprocessing))
+(library (name caml) (public_name base.caml) (preprocess no_preprocessing)
+(ocamlopt_flags (-default-compartment-id 1 -function-sections)))
 
