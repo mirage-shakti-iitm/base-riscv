@@ -1,3 +1,3 @@
 (library (name md5_lib) (public_name base.md5) (preprocess no_preprocessing)
  (libraries) (js_of_ocaml (javascript_files))
- (ocamlopt_flags (-default-compartment-id 3 -function-sections)))
+ (ocamlopt_flags (-default-compartment-id 6 -function-sections)))
